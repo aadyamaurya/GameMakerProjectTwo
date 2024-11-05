@@ -6,6 +6,7 @@ if (mouse_check_button_pressed(mb_left) && position_meeting(mouse_x, mouse_y, id
     isDragging = true;
 }
 if (isDragging) {
+	image_alpha = 0.9;
     x = mouse_x;
     y = mouse_y;
 }
@@ -13,7 +14,7 @@ if (isDragging) {
 // Stop Dragging
 if (isDragging && mouse_check_button_released(mb_left)) {
     var shadowTarget = instance_position(mouse_x, mouse_y, Obj_Shadow);
-    
+    image_alpha = 1;
     if (shadowTarget != noone) {
 		isFirstMove = false;
         x = shadowTarget.x;
