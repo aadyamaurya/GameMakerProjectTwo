@@ -1,19 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_White_Pawn",
+  "%Name":"Obj_Pawn_White",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_White_Pawn",
+  "name":"Obj_Pawn_White",
   "overriddenProperties":[],
   "parent":{
     "name":"White",
     "path":"folders/Objects/Pieces/White.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"Obj_Piece_Parent",
+    "path":"objects/Obj_Piece_Parent/Obj_Piece_Parent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

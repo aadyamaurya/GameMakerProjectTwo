@@ -37,9 +37,9 @@
   },
   "name":"CheatingAtChess",
   "resources":[
+    {"id":{"name":"Obj_Pawn_White","path":"objects/Obj_Pawn_White/Obj_Pawn_White.yy",},},
     {"id":{"name":"Obj_Piece_Parent","path":"objects/Obj_Piece_Parent/Obj_Piece_Parent.yy",},},
     {"id":{"name":"Obj_Shadow","path":"objects/Obj_Shadow/Obj_Shadow.yy",},},
-    {"id":{"name":"Obj_White_Pawn","path":"objects/Obj_White_Pawn/Obj_White_Pawn.yy",},},
     {"id":{"name":"Dev_Test_Room","path":"rooms/Dev_Test_Room/Dev_Test_Room.yy",},},
     {"id":{"name":"Spr_Bishop_White","path":"sprites/Spr_Bishop_White/Spr_Bishop_White.yy",},},
     {"id":{"name":"Spr_Board_Squares","path":"sprites/Spr_Board_Squares/Spr_Board_Squares.yy",},},
