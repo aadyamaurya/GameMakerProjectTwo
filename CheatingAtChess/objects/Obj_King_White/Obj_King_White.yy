@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_White_Knight",
+  "%Name":"Obj_King_White",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_White_Knight",
+  "name":"Obj_King_White",
   "overriddenProperties":[],
   "parent":{
     "name":"White",
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_Knight_White",
-    "path":"sprites/Spr_Knight_White/Spr_Knight_White.yy",
+    "name":"Spr_King_White",
+    "path":"sprites/Spr_King_White/Spr_King_White.yy",
   },
   "spriteMaskId":null,
   "visible":true,
