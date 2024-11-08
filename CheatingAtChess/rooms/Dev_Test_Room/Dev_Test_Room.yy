@@ -8,12 +8,16 @@
   "instanceCreationOrder":[
     {"name":"inst_2365ED4A","path":"rooms/Dev_Test_Room/Dev_Test_Room.yy",},
     {"name":"inst_7BA6E1DD","path":"rooms/Dev_Test_Room/Dev_Test_Room.yy",},
+    {"name":"inst_6DBF6BC9","path":"rooms/Dev_Test_Room/Dev_Test_Room.yy",},
+    {"name":"inst_68DD924F","path":"rooms/Dev_Test_Room/Dev_Test_Room.yy",},
   ],
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v1","%Name":"inst_2365ED4A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2365ED4A","objectId":{"name":"Obj_Pawn_White","path":"objects/Obj_Pawn_White/Obj_Pawn_White.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":80.0,"y":240.0,},
         {"$GMRInstance":"v1","%Name":"inst_7BA6E1DD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7BA6E1DD","objectId":{"name":"Obj_Rook_White","path":"objects/Obj_Rook_White/Obj_Rook_White.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":208.0,"y":240.0,},
+        {"$GMRInstance":"v1","%Name":"inst_6DBF6BC9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6DBF6BC9","objectId":{"name":"Obj_White_Knight","path":"objects/Obj_White_Knight/Obj_White_Knight.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":144.0,"y":208.0,},
+        {"$GMRInstance":"v1","%Name":"inst_68DD924F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_68DD924F","objectId":{"name":"Obj_Bishop_White","path":"objects/Obj_Bishop_White/Obj_Bishop_White.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":176.0,"y":112.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_1","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":9,"SerialiseWidth":9,"TileSerialiseData":[
           0,1,0,1,0,1,0,1,2147483648,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,2147483648,1,0,1,0,1,0,1,0,1,0,1,0,1,0,
