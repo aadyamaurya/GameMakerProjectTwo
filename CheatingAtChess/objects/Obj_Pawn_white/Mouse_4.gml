@@ -17,3 +17,19 @@ if (place_empty(x, y - (32))){
 		instance_create_layer(x, y-(32), "Instances", Obj_Shadow);
 	}
 }
+
+if (!place_empty(x - (32), y - (32))){
+	if(position_meeting(x-(32), y-(32), Obj_Pawn_Black) || position_meeting(x-(32), y-(32), Obj_Bishop_Black)
+	|| position_meeting(x-(32), y-(32), Obj_Knight_Black) || position_meeting(x-(32), y-(32), Obj_Rook_Black)
+	|| position_meeting(x-(32), y-(32), Obj_Queen_Black)){
+		instance_create_layer(x-(32), y-(32), "Instances", Obj_Shadow);
+	}
+}
+
+if (!place_empty(x + (32), y - (32))){
+	if(position_meeting(x+(32), y-(32), Obj_Pawn_Black) || position_meeting(x+(32), y-(32), Obj_Bishop_Black)
+	|| position_meeting(x+(32), y-(32), Obj_Knight_Black) || position_meeting(x+(32), y-(32), Obj_Rook_Black)
+	|| position_meeting(x+(32), y-(32), Obj_Queen_Black)){
+		instance_create_layer(x+(32), y-(32), "Instances", Obj_Shadow);
+	}
+}
