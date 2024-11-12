@@ -44,6 +44,7 @@
     {"id":{"name":"Obj_King_White","path":"objects/Obj_King_White/Obj_King_White.yy",},},
     {"id":{"name":"Obj_Knight_Black","path":"objects/Obj_Knight_Black/Obj_Knight_Black.yy",},},
     {"id":{"name":"Obj_Knight_White","path":"objects/Obj_Knight_White/Obj_Knight_White.yy",},},
+    {"id":{"name":"Obj_Out_of_Bounds","path":"objects/Obj_Out_of_Bounds/Obj_Out_of_Bounds.yy",},},
     {"id":{"name":"Obj_Pawn_Black","path":"objects/Obj_Pawn_Black/Obj_Pawn_Black.yy",},},
     {"id":{"name":"Obj_Pawn_White","path":"objects/Obj_Pawn_White/Obj_Pawn_White.yy",},},
     {"id":{"name":"Obj_Queen_Black","path":"objects/Obj_Queen_Black/Obj_Queen_Black.yy",},},
@@ -53,6 +54,7 @@
     {"id":{"name":"Obj_Shadow","path":"objects/Obj_Shadow/Obj_Shadow.yy",},},
     {"id":{"name":"Obj_White_Piece_Parent","path":"objects/Obj_White_Piece_Parent/Obj_White_Piece_Parent.yy",},},
     {"id":{"name":"Dev_Test_Room","path":"rooms/Dev_Test_Room/Dev_Test_Room.yy",},},
+    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Spr_Bishop_Black","path":"sprites/Spr_Bishop_Black/Spr_Bishop_Black.yy",},},
     {"id":{"name":"Spr_Bishop_White","path":"sprites/Spr_Bishop_White/Spr_Bishop_White.yy",},},
     {"id":{"name":"Spr_Board_Squares","path":"sprites/Spr_Board_Squares/Spr_Board_Squares.yy",},},
@@ -60,6 +62,7 @@
     {"id":{"name":"Spr_King_White","path":"sprites/Spr_King_White/Spr_King_White.yy",},},
     {"id":{"name":"Spr_Knight_Black","path":"sprites/Spr_Knight_Black/Spr_Knight_Black.yy",},},
     {"id":{"name":"Spr_Knight_White","path":"sprites/Spr_Knight_White/Spr_Knight_White.yy",},},
+    {"id":{"name":"Spr_OoB","path":"sprites/Spr_OoB/Spr_OoB.yy",},},
     {"id":{"name":"Spr_Pawn_Black","path":"sprites/Spr_Pawn_Black/Spr_Pawn_Black.yy",},},
     {"id":{"name":"Spr_Pawn_White","path":"sprites/Spr_Pawn_White/Spr_Pawn_White.yy",},},
     {"id":{"name":"Spr_Queen_Black","path":"sprites/Spr_Queen_Black/Spr_Queen_Black.yy",},},
@@ -74,6 +77,7 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"Dev_Test_Room","path":"rooms/Dev_Test_Room/Dev_Test_Room.yy",},},
+    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
