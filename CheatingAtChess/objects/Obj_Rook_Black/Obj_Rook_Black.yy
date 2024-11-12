@@ -1,16 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_Piece_Parent",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"Obj_Rook_Black",
+  "eventList":[],
   "managed":true,
-  "name":"Obj_Piece_Parent",
+  "name":"Obj_Rook_Black",
   "overriddenProperties":[],
   "parent":{
-    "name":"Pieces",
-    "path":"folders/Objects/Pieces.yy",
+    "name":"Black",
+    "path":"folders/Objects/Pieces/Black.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Spr_Rook_Black",
+    "path":"sprites/Spr_Rook_Black/Spr_Rook_Black.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

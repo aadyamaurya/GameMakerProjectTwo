@@ -1,20 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_Pawn_White",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"Obj_Pawn_Black",
+  "eventList":[],
   "managed":true,
-  "name":"Obj_Pawn_White",
+  "name":"Obj_Pawn_Black",
   "overriddenProperties":[],
   "parent":{
-    "name":"White",
-    "path":"folders/Objects/Pieces/White.yy",
+    "name":"Black",
+    "path":"folders/Objects/Pieces/Black.yy",
   },
-  "parentObjectId":{
-    "name":"Obj_White_Piece_Parent",
-    "path":"objects/Obj_White_Piece_Parent/Obj_White_Piece_Parent.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -33,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_Pawn_White",
-    "path":"sprites/Spr_Pawn_White/Spr_Pawn_White.yy",
+    "name":"Spr_Pawn_Black",
+    "path":"sprites/Spr_Pawn_Black/Spr_Pawn_Black.yy",
   },
   "spriteMaskId":null,
   "visible":true,

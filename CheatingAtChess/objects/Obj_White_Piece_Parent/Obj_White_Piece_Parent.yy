@@ -1,20 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_Pawn_White",
+  "%Name":"Obj_White_Piece_Parent",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_Pawn_White",
+  "name":"Obj_White_Piece_Parent",
   "overriddenProperties":[],
   "parent":{
-    "name":"White",
-    "path":"folders/Objects/Pieces/White.yy",
+    "name":"Pieces",
+    "path":"folders/Objects/Pieces.yy",
   },
-  "parentObjectId":{
-    "name":"Obj_White_Piece_Parent",
-    "path":"objects/Obj_White_Piece_Parent/Obj_White_Piece_Parent.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -32,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"Spr_Pawn_White",
-    "path":"sprites/Spr_Pawn_White/Spr_Pawn_White.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

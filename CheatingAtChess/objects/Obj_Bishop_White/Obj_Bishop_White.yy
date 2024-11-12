@@ -12,8 +12,8 @@
     "path":"folders/Objects/Pieces/White.yy",
   },
   "parentObjectId":{
-    "name":"Obj_Piece_Parent",
-    "path":"objects/Obj_Piece_Parent/Obj_Piece_Parent.yy",
+    "name":"Obj_White_Piece_Parent",
+    "path":"objects/Obj_White_Piece_Parent/Obj_White_Piece_Parent.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
