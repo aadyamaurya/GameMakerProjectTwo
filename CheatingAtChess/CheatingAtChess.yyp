@@ -17,6 +17,7 @@
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Pieces","folderPath":"folders/Objects/Pieces.yy","name":"Pieces","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Black","folderPath":"folders/Objects/Pieces/Black.yy","name":"Black","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Cheat Pieces","folderPath":"folders/Objects/Pieces/Cheat Pieces.yy","name":"Cheat Pieces","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"White","folderPath":"folders/Objects/Pieces/White.yy","name":"White","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Particle Systems","folderPath":"folders/Particle Systems.yy","name":"Particle Systems","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Paths","folderPath":"folders/Paths.yy","name":"Paths","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -40,6 +41,7 @@
   "resources":[
     {"id":{"name":"Obj_Bishop_Black","path":"objects/Obj_Bishop_Black/Obj_Bishop_Black.yy",},},
     {"id":{"name":"Obj_Bishop_White","path":"objects/Obj_Bishop_White/Obj_Bishop_White.yy",},},
+    {"id":{"name":"Obj_Deleter","path":"objects/Obj_Deleter/Obj_Deleter.yy",},},
     {"id":{"name":"Obj_King_Black","path":"objects/Obj_King_Black/Obj_King_Black.yy",},},
     {"id":{"name":"Obj_King_White","path":"objects/Obj_King_White/Obj_King_White.yy",},},
     {"id":{"name":"Obj_Knight_Black","path":"objects/Obj_Knight_Black/Obj_Knight_Black.yy",},},
@@ -77,6 +79,7 @@
     {"id":{"name":"Spr_Shadow","path":"sprites/Spr_Shadow/Spr_Shadow.yy",},},
     {"id":{"name":"spr_Title","path":"sprites/spr_Title/spr_Title.yy",},},
     {"id":{"name":"spr_Tutorial_Button","path":"sprites/spr_Tutorial_Button/spr_Tutorial_Button.yy",},},
+    {"id":{"name":"Sprite20","path":"sprites/Sprite20/Sprite20.yy",},},
     {"id":{"name":"TileSet_Board","path":"tilesets/TileSet_Board/TileSet_Board.yy",},},
   ],
   "resourceType":"GMProject",
