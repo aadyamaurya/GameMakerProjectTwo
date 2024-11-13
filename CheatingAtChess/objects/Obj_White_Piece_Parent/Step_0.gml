@@ -48,6 +48,7 @@ if (isDragging && mouse_check_button_released(mb_left)) {
         }
 		
 		instance_destroy(Obj_Shadow);
+		health++;
     }
 	else{
 	x = original_x;

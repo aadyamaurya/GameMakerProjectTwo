@@ -47,32 +47,34 @@ if (isDragging && mouse_check_button_released(mb_left)) {
             instance_destroy(blackQueen);
         }
 		
-		var WhitePawn = instance_place(x, y, Obj_Pawn_White); 
-        if (blackPawn != noone) {
-            instance_destroy(blackPawn);
+		var whitePawn = instance_place(x, y, Obj_Pawn_White); 
+        if (whitePawn != noone) {
+            instance_destroy(whitePawn);
         }
 		
-		var blackBishop = instance_place(x, y, Obj_Bishop_Black); 
-        if (blackBishop != noone) {
-            instance_destroy(blackBishop);
+		var whiteBishop = instance_place(x, y, Obj_Bishop_White); 
+        if (whiteBishop != noone) {
+            instance_destroy(whiteBishop);
         }
 		
-		var blackKnight = instance_place(x, y, Obj_Knight_Black); 
-        if (blackKnight != noone) {
-            instance_destroy(blackKnight);
+		var whiteKnight = instance_place(x, y, Obj_Knight_White); 
+        if (whiteKnight != noone) {
+            instance_destroy(whiteKnight);
         }
 		
-		var blackRook = instance_place(x, y, Obj_Rook_Black); 
-        if (blackRook != noone) {
-            instance_destroy(blackRook);
+		var whiteRook = instance_place(x, y, Obj_Rook_White); 
+        if (whiteRook != noone) {
+            instance_destroy(whiteRook);
         }
 		
-		var blackQueen = instance_place(x, y, Obj_Queen_Black); 
-        if (blackQueen != noone) {
-            instance_destroy(blackQueen);
+		var whiteQueen = instance_place(x, y, Obj_Queen_White); 
+        if (whiteQueen != noone) {
+            instance_destroy(whiteQueen);
         }
 		
 		instance_destroy(Obj_Shadow);
+		instance_destroy();
+		health++;
     }
 	else{
 	x = original_x;

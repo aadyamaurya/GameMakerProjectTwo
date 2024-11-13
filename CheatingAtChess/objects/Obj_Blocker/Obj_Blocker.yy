@@ -1,20 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_Deleter",
+  "%Name":"Obj_Blocker",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_Deleter",
+  "name":"Obj_Blocker",
   "overriddenProperties":[],
   "parent":{
     "name":"Cheat Pieces",
     "path":"folders/Objects/Pieces/Cheat Pieces.yy",
   },
   "parentObjectId":{
-    "name":"Obj_White_Piece_Parent",
-    "path":"objects/Obj_White_Piece_Parent/Obj_White_Piece_Parent.yy",
+    "name":"Obj_Deleter",
+    "path":"objects/Obj_Deleter/Obj_Deleter.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -34,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite20",
-    "path":"sprites/Sprite20/Sprite20.yy",
+    "name":"Spr_Blocker",
+    "path":"sprites/Spr_Blocker/Spr_Blocker.yy",
   },
   "spriteMaskId":null,
   "visible":true,

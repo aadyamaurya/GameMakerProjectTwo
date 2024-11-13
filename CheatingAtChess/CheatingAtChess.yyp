@@ -41,7 +41,9 @@
   "resources":[
     {"id":{"name":"Obj_Bishop_Black","path":"objects/Obj_Bishop_Black/Obj_Bishop_Black.yy",},},
     {"id":{"name":"Obj_Bishop_White","path":"objects/Obj_Bishop_White/Obj_Bishop_White.yy",},},
+    {"id":{"name":"Obj_Blocker","path":"objects/Obj_Blocker/Obj_Blocker.yy",},},
     {"id":{"name":"Obj_Deleter","path":"objects/Obj_Deleter/Obj_Deleter.yy",},},
+    {"id":{"name":"Obj_First_Space","path":"objects/Obj_First_Space/Obj_First_Space.yy",},},
     {"id":{"name":"Obj_King_Black","path":"objects/Obj_King_Black/Obj_King_Black.yy",},},
     {"id":{"name":"Obj_King_White","path":"objects/Obj_King_White/Obj_King_White.yy",},},
     {"id":{"name":"Obj_Knight_Black","path":"objects/Obj_Knight_Black/Obj_Knight_Black.yy",},},
@@ -62,6 +64,7 @@
     {"id":{"name":"Tutorial_Room","path":"rooms/Tutorial_Room/Tutorial_Room.yy",},},
     {"id":{"name":"Spr_Bishop_Black","path":"sprites/Spr_Bishop_Black/Spr_Bishop_Black.yy",},},
     {"id":{"name":"Spr_Bishop_White","path":"sprites/Spr_Bishop_White/Spr_Bishop_White.yy",},},
+    {"id":{"name":"Spr_Blocker","path":"sprites/Spr_Blocker/Spr_Blocker.yy",},},
     {"id":{"name":"Spr_Board_Squares","path":"sprites/Spr_Board_Squares/Spr_Board_Squares.yy",},},
     {"id":{"name":"Spr_King_Black","path":"sprites/Spr_King_Black/Spr_King_Black.yy",},},
     {"id":{"name":"Spr_King_White","path":"sprites/Spr_King_White/Spr_King_White.yy",},},
