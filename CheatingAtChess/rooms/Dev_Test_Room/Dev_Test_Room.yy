@@ -23,6 +23,7 @@
     {"name":"inst_4308BB81","path":"rooms/Dev_Test_Room/Dev_Test_Room.yy",},
     {"name":"inst_7A2A5288","path":"rooms/Dev_Test_Room/Dev_Test_Room.yy",},
     {"name":"inst_6BAA408B","path":"rooms/Dev_Test_Room/Dev_Test_Room.yy",},
+    {"name":"inst_50FBBF46","path":"rooms/Dev_Test_Room/Dev_Test_Room.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -44,6 +45,7 @@
         {"$GMRInstance":"v1","%Name":"inst_4308BB81","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4308BB81","objectId":{"name":"Obj_Rook_Black","path":"objects/Obj_Rook_Black/Obj_Rook_Black.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":112.0,"y":176.0,},
         {"$GMRInstance":"v1","%Name":"inst_7A2A5288","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7A2A5288","objectId":{"name":"Obj_Bishop_Black","path":"objects/Obj_Bishop_Black/Obj_Bishop_Black.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":272.0,"y":144.0,},
         {"$GMRInstance":"v1","%Name":"inst_6BAA408B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6BAA408B","objectId":{"name":"Obj_Knight_Black","path":"objects/Obj_Knight_Black/Obj_Knight_Black.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":208.0,"y":240.0,},
+        {"$GMRInstance":"v1","%Name":"inst_50FBBF46","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_50FBBF46","objectId":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":32.0,"y":288.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_1","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":10,"SerialiseWidth":10,"TileCompressedData":[
           -8,0,-2,-2147483648,-2,0,36,1,0,1,0,1,0,1,-2147483648,0,1,0,1,0,1,0,1,0,-2147483648,0,0,1,0,1,0,1,0,

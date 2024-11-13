@@ -43,6 +43,7 @@
     {"id":{"name":"Obj_Bishop_Black","path":"objects/Obj_Bishop_Black/Obj_Bishop_Black.yy",},},
     {"id":{"name":"Obj_Bishop_White","path":"objects/Obj_Bishop_White/Obj_Bishop_White.yy",},},
     {"id":{"name":"Obj_Blocker","path":"objects/Obj_Blocker/Obj_Blocker.yy",},},
+    {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},},
     {"id":{"name":"Obj_Deleter","path":"objects/Obj_Deleter/Obj_Deleter.yy",},},
     {"id":{"name":"Obj_First_Space","path":"objects/Obj_First_Space/Obj_First_Space.yy",},},
     {"id":{"name":"Obj_King_Black","path":"objects/Obj_King_Black/Obj_King_Black.yy",},},
