@@ -57,7 +57,7 @@
     {"id":{"name":"Obj_White_Piece_Parent","path":"objects/Obj_White_Piece_Parent/Obj_White_Piece_Parent.yy",},},
     {"id":{"name":"Dev_Test_Room","path":"rooms/Dev_Test_Room/Dev_Test_Room.yy",},},
     {"id":{"name":"rm_Title_Screen","path":"rooms/rm_Title_Screen/rm_Title_Screen.yy",},},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"Tutorial_Room","path":"rooms/Tutorial_Room/Tutorial_Room.yy",},},
     {"id":{"name":"Spr_Bishop_Black","path":"sprites/Spr_Bishop_Black/Spr_Bishop_Black.yy",},},
     {"id":{"name":"Spr_Bishop_White","path":"sprites/Spr_Bishop_White/Spr_Bishop_White.yy",},},
     {"id":{"name":"Spr_Board_Squares","path":"sprites/Spr_Board_Squares/Spr_Board_Squares.yy",},},
@@ -84,7 +84,7 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"rm_Title_Screen","path":"rooms/rm_Title_Screen/rm_Title_Screen.yy",},},
     {"roomId":{"name":"Dev_Test_Room","path":"rooms/Dev_Test_Room/Dev_Test_Room.yy",},},
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Tutorial_Room","path":"rooms/Tutorial_Room/Tutorial_Room.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
