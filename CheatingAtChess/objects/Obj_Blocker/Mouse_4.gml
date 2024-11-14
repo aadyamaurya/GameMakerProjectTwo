@@ -17,4 +17,4 @@ if(instance_exists(Obj_Shadow)){instance_destroy(Obj_Shadow);}
 //	vertMultiplier++;
 //}
 
-show_message_async("To solve the puzzle, first use the 'X' to delete the right most white rook. Next move teh remaining white rook up one square.")
+show_message_async("To solve the puzzle, first use the 'X' to delete the right most white rook. Next move the remaining white rook up one square.")
