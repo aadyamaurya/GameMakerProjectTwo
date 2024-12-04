@@ -13,7 +13,8 @@ if (isDragging) {
 
 // Stop Dragging
 if (isDragging && mouse_check_button_released(mb_left)) {
-    var shadowTarget = instance_position(mouse_x, mouse_y, Obj_Shadow);
+    audio_play_sound(snd_move_piece, 1, false);
+	var shadowTarget = instance_position(mouse_x, mouse_y, Obj_Shadow);
     image_alpha = 1;
     if (shadowTarget != noone) {
 		isFirstMove = false;

@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-
+audio_play_sound(snd_button_click, 1, false);
 if(instance_exists(Obj_Shadow)){instance_destroy(Obj_Shadow);}
 //var vertMultiplier = 1;
 //var horMultiplier = 1;
