@@ -6,7 +6,7 @@ if(instance_exists(Obj_Shadow)){instance_destroy(Obj_Shadow);}
 
 //up
 while (multiplier < 9){
-if (!place_empty(x, y-(32*multiplier))){
+if (!place_empty(x, y-(180*multiplier))){
 	if(position_meeting(x, y - (32 * multiplier), Obj_Pawn_Black) || position_meeting(x, y - (32 * multiplier), Obj_Bishop_Black)
 	|| position_meeting(x, y - (32 * multiplier), Obj_Knight_Black) || position_meeting(x, y - (32 * multiplier), Obj_Rook_Black)
 	|| position_meeting(x, y - (32 * multiplier), Obj_Queen_Black)){

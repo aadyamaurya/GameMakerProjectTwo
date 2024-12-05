@@ -7,8 +7,8 @@ var horMultiplier = 1;
 
 while (vertMultiplier < 9){
 	while(horMultiplier < 9){
-		if(!place_empty((Obj_First_Space.x)+(32*horMultiplier), (Obj_First_Space.y) - (32*vertMultiplier))){
-			instance_create_layer((Obj_First_Space.x)+(32*horMultiplier), (Obj_First_Space.y) - (32*vertMultiplier), "Instances", Obj_Shadow);
+		if(!place_empty((Obj_First_Space.x)+(180*horMultiplier), (Obj_First_Space.y) - (180*vertMultiplier))){
+			instance_create_layer((Obj_First_Space.x)+(180*horMultiplier), (Obj_First_Space.y) - (180*vertMultiplier), "Instances", Obj_Shadow);
 		}
 		horMultiplier++;
 	}

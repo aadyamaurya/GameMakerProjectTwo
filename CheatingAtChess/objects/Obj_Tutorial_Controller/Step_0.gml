@@ -11,10 +11,10 @@ else if(health == 2){
 	}
 }
 
-if (place_empty(x + 32, y + 64) && first_move_correct == 0){
+if (place_empty(x + 180, y + 360) && first_move_correct == 0){
  first_move_correct = 1;
 }
 
-if (position_meeting(x, y + 32, Obj_Rook_White) && second_move_correct == 0){
+if (position_meeting(x, y + 180, Obj_Rook_White) && second_move_correct == 0){
  second_move_correct = 1;
 }
