@@ -49,7 +49,7 @@ if (isDragging && mouse_check_button_released(mb_left)) {
         }
 		
 		instance_destroy(Obj_Shadow);
-		health++;
+		global.moveCounter++;
     }
 	else{
 	x = original_x;

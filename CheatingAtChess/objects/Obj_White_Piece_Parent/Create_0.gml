@@ -4,3 +4,4 @@ isFirstMove = true;
 isDragging = false;
 original_x = x;
 original_y = y;
+global.moveCounter = 0;

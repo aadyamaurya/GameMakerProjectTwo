@@ -15,6 +15,7 @@
     {"$GMFolder":"","%Name":"Fonts","folderPath":"folders/Fonts.yy","name":"Fonts","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Notes","folderPath":"folders/Notes.yy","name":"Notes","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Check_Checkers","folderPath":"folders/Objects/Check_Checkers.yy","name":"Check_Checkers","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Level Controllers","folderPath":"folders/Objects/Level Controllers.yy","name":"Level Controllers","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Pieces","folderPath":"folders/Objects/Pieces.yy","name":"Pieces","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Black","folderPath":"folders/Objects/Pieces/Black.yy","name":"Black","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -40,6 +41,9 @@
   },
   "name":"CheatingAtChess",
   "resources":[
+    {"id":{"name":"Check_Checkers_Bishop","path":"objects/Check_Checkers_Bishop/Check_Checkers_Bishop.yy",},},
+    {"id":{"name":"Check_Checkers_Knight","path":"objects/Check_Checkers_Knight/Check_Checkers_Knight.yy",},},
+    {"id":{"name":"Check_Checkers","path":"objects/Check_Checkers/Check_Checkers.yy",},},
     {"id":{"name":"Obj_Bishop_Black","path":"objects/Obj_Bishop_Black/Obj_Bishop_Black.yy",},},
     {"id":{"name":"Obj_Bishop_White","path":"objects/Obj_Bishop_White/Obj_Bishop_White.yy",},},
     {"id":{"name":"Obj_Blocker","path":"objects/Obj_Blocker/Obj_Blocker.yy",},},

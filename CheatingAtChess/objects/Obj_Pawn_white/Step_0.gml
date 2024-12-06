@@ -13,7 +13,8 @@ if (isDragging) {
 
 // Stop Dragging
 if (isDragging && mouse_check_button_released(mb_left)) {
-    var shadowTarget = instance_position(mouse_x, mouse_y, Obj_Shadow);
+    audio_play_sound(snd_move_piece, 1, false);
+	var shadowTarget = instance_position(mouse_x, mouse_y, Obj_Shadow);
     image_alpha = 1;
     if (shadowTarget != noone) {
 		isFirstMove = false;
@@ -25,65 +26,29 @@ if (isDragging && mouse_check_button_released(mb_left)) {
 		var blackPawn = instance_place(x, y, Obj_Pawn_Black); 
         if (blackPawn != noone) {
             instance_destroy(blackPawn);
-			audio_play_sound(snd_delete, 1, false);
         }
 		
 		var blackBishop = instance_place(x, y, Obj_Bishop_Black); 
         if (blackBishop != noone) {
             instance_destroy(blackBishop);
-			audio_play_sound(snd_delete, 1, false);
         }
 		
 		var blackKnight = instance_place(x, y, Obj_Knight_Black); 
         if (blackKnight != noone) {
             instance_destroy(blackKnight);
-			audio_play_sound(snd_delete, 1, false);
         }
 		
 		var blackRook = instance_place(x, y, Obj_Rook_Black); 
         if (blackRook != noone) {
             instance_destroy(blackRook);
-			audio_play_sound(snd_delete, 1, false);
         }
 		
 		var blackQueen = instance_place(x, y, Obj_Queen_Black); 
         if (blackQueen != noone) {
             instance_destroy(blackQueen);
-			audio_play_sound(snd_delete, 1, false);
-        }
-		
-		var whitePawn = instance_place(x, y, Obj_Pawn_White); 
-        if (whitePawn != noone) {
-            instance_destroy(whitePawn);
-			audio_play_sound(snd_delete, 1, false);
-        }
-		
-		var whiteBishop = instance_place(x, y, Obj_Bishop_White); 
-        if (whiteBishop != noone) {
-            instance_destroy(whiteBishop);
-			audio_play_sound(snd_delete, 1, false);
-        }
-		
-		var whiteKnight = instance_place(x, y, Obj_Knight_White); 
-        if (whiteKnight != noone) {
-            instance_destroy(whiteKnight);
-			audio_play_sound(snd_delete, 1, false);
-        }
-		
-		var whiteRook = instance_place(x, y, Obj_Rook_White); 
-        if (whiteRook != noone) {
-            instance_destroy(whiteRook);
-			audio_play_sound(snd_delete, 1, false);
-        }
-		
-		var whiteQueen = instance_place(x, y, Obj_Queen_White); 
-        if (whiteQueen != noone) {
-            instance_destroy(whiteQueen);
-			audio_play_sound(snd_delete, 1, false);
         }
 		
 		instance_destroy(Obj_Shadow);
-		instance_destroy();
 		global.moveCounter++;
     }
 	else{
@@ -92,4 +57,18 @@ if (isDragging && mouse_check_button_released(mb_left)) {
 	}
     
     isDragging = false;
+	
+	// Check for Check
+	if (!place_empty(x - (180), y - (180))){
+		if(position_meeting(x-(180), y-(180), Obj_King_Black)){
+			instance_create_layer(x-(180), y-(180), "Instances", Check_Checkers);
+		}
+	}
+
+	if (!place_empty(x + (180), y - (180))){
+		if(position_meeting(x+(180), y-(180), Obj_King_Black)){
+			instance_create_layer(x+(180), y-(180), "Instances", Check_Checkers);
+		}
+	}
 }
+

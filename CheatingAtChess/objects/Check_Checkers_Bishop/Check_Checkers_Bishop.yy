@@ -1,17 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_King_Black",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"Check_Checkers_Bishop",
+  "eventList":[],
   "managed":true,
-  "name":"Obj_King_Black",
+  "name":"Check_Checkers_Bishop",
   "overriddenProperties":[],
   "parent":{
-    "name":"Black",
-    "path":"folders/Objects/Pieces/Black.yy",
+    "name":"Check_Checkers",
+    "path":"folders/Objects/Check_Checkers.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"Check_Checkers",
+    "path":"objects/Check_Checkers/Check_Checkers.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_King_Black",
-    "path":"sprites/Spr_King_Black/Spr_King_Black.yy",
+    "name":"Spr_Blocker",
+    "path":"sprites/Spr_Blocker/Spr_Blocker.yy",
   },
   "spriteMaskId":null,
   "visible":true,
