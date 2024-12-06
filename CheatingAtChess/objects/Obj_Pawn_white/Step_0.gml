@@ -61,13 +61,13 @@ if (isDragging && mouse_check_button_released(mb_left)) {
 	// Check for Check
 	if (!place_empty(x - (180), y - (180))){
 		if(position_meeting(x-(180), y-(180), Obj_King_Black)){
-			instance_create_layer(x-(180), y-(180), "Instances", Check_Checkers);
+			instance_create_layer(x-(180), y-(180), "Instances", Check_Checkers_Parent);
 		}
 	}
 
 	if (!place_empty(x + (180), y - (180))){
 		if(position_meeting(x+(180), y-(180), Obj_King_Black)){
-			instance_create_layer(x+(180), y-(180), "Instances", Check_Checkers);
+			instance_create_layer(x+(180), y-(180), "Instances", Check_Checkers_Parent);
 		}
 	}
 }

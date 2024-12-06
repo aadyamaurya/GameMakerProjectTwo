@@ -63,85 +63,69 @@ if (isDragging && mouse_check_button_released(mb_left)) {
 	// Check for check
 	var multiplier = 1;
 	
-	if(instance_exists(Check_Checkers)){instance_destroy(Check_Checkers);}
+	if(instance_exists(CC_Knight)){instance_destroy(CC_Knight);}
 
-//up
-if (!place_empty(x+(180), y-(180*2))){
-	if(position_meeting(x+(180), y-(180*2), Obj_Pawn_Black) || position_meeting(x+(180), y-(180*2), Obj_Bishop_Black)
-	|| position_meeting(x+(180), y-(180*2), Obj_Knight_Black) || position_meeting(x+(180), y-(180*2), Obj_Rook_Black)
-	|| position_meeting(x+(180), y-(180*2), Obj_Queen_Black)){
-		instance_create_layer(x+(180), y-(180*2), "Instances", Check_Checkers);
+	//up
+	if (!place_empty(x+(180), y-(180*2))){
+		if(position_meeting(x+(180), y-(180*2), Obj_King_Black)){
+			instance_create_layer(x+(180), y-(180*2), "Instances", CC_Knight);
+		}
 	}
-}
-else{instance_create_layer(x+(180), y-(180*2), "Instances", Check_Checkers);} // Up right
+	else{instance_create_layer(x+(180), y-(180*2), "Instances", CC_Knight);} // Up right
 
 
-if(!place_empty(x-(180), y-(180*2))){
-	if(position_meeting(x-(180), y-(180*2), Obj_Pawn_Black) || position_meeting(x-(180), y-(180*2), Obj_Bishop_Black)
-	|| position_meeting(x-(180), y-(180*2), Obj_Knight_Black) || position_meeting(x-(180), y-(180*2), Obj_Rook_Black)
-	|| position_meeting(x-(180), y-(180*2), Obj_Queen_Black)){
-		instance_create_layer(x-(180), y-(180*2), "Instances", Check_Checkers);
+	if(!place_empty(x-(180), y-(180*2))){
+		if(position_meeting(x-(180), y-(180*2), Obj_King_Black)){
+			instance_create_layer(x-(180), y-(180*2), "Instances", CC_Knight);
+		}
 	}
-}
-else{instance_create_layer(x-(180), y-(180*2), "Instances", Check_Checkers);} // Up left
+	else{instance_create_layer(x-(180), y-(180*2), "Instances", CC_Knight);} // Up left
 
-//down
-if (!place_empty(x+(180), y+(180*2))){
-	if(position_meeting(x+(180), y+(180*2), Obj_Pawn_Black) || position_meeting(x+(180), y+(180*2), Obj_Bishop_Black)
-	|| position_meeting(x+(180), y+(180*2), Obj_Knight_Black) || position_meeting(x+(180), y+(180*2), Obj_Rook_Black)
-	|| position_meeting(x+(180), y+(180*2), Obj_Queen_Black)){
-		instance_create_layer(x+(180), y+(180*2), "Instances", Check_Checkers);
+	//down
+	if (!place_empty(x+(180), y+(180*2))){
+		if(position_meeting(x+(180), y+(180*2), Obj_King_Black)){
+			instance_create_layer(x+(180), y+(180*2), "Instances", CC_Knight);
+		}
 	}
-}
-else{instance_create_layer(x+(180), y+(180*2), "Instances", Check_Checkers);} // Down right
+	else{instance_create_layer(x+(180), y+(180*2), "Instances", CC_Knight);} // Down right
 
-if(!place_empty(x-(180), y+(180*2))){
-	if(position_meeting(x-(180), y+(180*2), Obj_Pawn_Black) || position_meeting(x-(180), y+(180*2), Obj_Bishop_Black)
-	|| position_meeting(x-(180), y+(180*2), Obj_Knight_Black) || position_meeting(x-(180), y+(180*2), Obj_Rook_Black)
-	|| position_meeting(x-(180), y+(180*2), Obj_Queen_Black)){
-		instance_create_layer(x-(180), y+(180*2), "Instances", Check_Checkers);
+	if(!place_empty(x-(180), y+(180*2))){
+		if(position_meeting(x-(180), y+(180*2), Obj_King_Black)){
+			instance_create_layer(x-(180), y+(180*2), "Instances", CC_Knight);
+		}
 	}
-}
-else{instance_create_layer(x-(180), y+(180*2), "Instances", Check_Checkers);} // Down left
+	else{instance_create_layer(x-(180), y+(180*2), "Instances", CC_Knight);} // Down left
 
 
-//left
-if (!place_empty(x-(180*2), y-(180))){
-	if(position_meeting(x-(180*2), y-(180), Obj_Pawn_Black) || position_meeting(x-(180*2), y-(180), Obj_Bishop_Black)
-	|| position_meeting(x-(180*2), y-(180), Obj_Knight_Black) || position_meeting(x-(180*2), y-(180), Obj_Rook_Black)
-	|| position_meeting(x-(180*2), y-(180), Obj_Queen_Black)){
-		instance_create_layer(x-(180*2), y-(180), "Instances", Check_Checkers);
-	}
+	//left
+	if (!place_empty(x-(180*2), y-(180))){
+		if(position_meeting(x-(180*2), y-(180), Obj_King_Black)){
+			instance_create_layer(x-(180*2), y-(180), "Instances", CC_Knight);
+		}
 	
-}
-else{instance_create_layer(x-(180*2), y-(180), "Instances", Check_Checkers);} // Left up
-
-if (!place_empty(x-(180*2), y+(180))){
-	if(position_meeting(x-(180*2), y+(180), Obj_Pawn_Black) || position_meeting(x-(180*2), y+(180), Obj_Bishop_Black)
-	|| position_meeting(x-(180*2), y+(180), Obj_Knight_Black) || position_meeting(x-(180*2), y+(180), Obj_Rook_Black)
-	|| position_meeting(x-(180*2), y+(180), Obj_Queen_Black)){
-		instance_create_layer(x-(180*2), y+(180), "Instances", Check_Checkers);
 	}
-}
-else{instance_create_layer(x-(180*2), y+(180), "Instances", Check_Checkers);} // Left down
+	else{instance_create_layer(x-(180*2), y-(180), "Instances", CC_Knight);} // Left up
 
-//right
-if (!place_empty(x+(180*2), y-(180))){
-	if(position_meeting(x+(180*2), y-(180), Obj_Pawn_Black) || position_meeting(x+(180*2), y-(180), Obj_Bishop_Black)
-	|| position_meeting(x+(180*2), y-(180), Obj_Knight_Black) || position_meeting(x+(180*2), y-(180), Obj_Rook_Black)
-	|| position_meeting(x+(180*2), y-(180), Obj_Queen_Black)){
-		instance_create_layer(x+(180*2), y-(180), "Instances", Check_Checkers);
+	if (!place_empty(x-(180*2), y+(180))){
+		if(position_meeting(x-(180*2), y+(180), Obj_King_Black)){
+			instance_create_layer(x-(180*2), y+(180), "Instances", CC_Knight);
+		}
 	}
-}
-else{instance_create_layer(x+(180*2), y-(180), "Instances", Check_Checkers);} // Right up
+	else{instance_create_layer(x-(180*2), y+(180), "Instances", CC_Knight);} // Left down
 
-if(!place_empty(x+(180*2), y+(180))){
-	if(position_meeting(x+(180*2), y+(180), Obj_Pawn_Black) || position_meeting(x+(180*2), y+(180), Obj_Bishop_Black)
-	|| position_meeting(x+(180*2), y+(180), Obj_Knight_Black) || position_meeting(x+(180*2), y+(180), Obj_Rook_Black)
-	|| position_meeting(x+(180*2), y+(180), Obj_Queen_Black)){
-		instance_create_layer(x+(180*2), y+(180), "Instances", Check_Checkers);
+	//right
+	if (!place_empty(x+(180*2), y-(180))){
+		if(position_meeting(x+(180*2), y-(180), Obj_King_Black)){
+			instance_create_layer(x+(180*2), y-(180), "Instances", CC_Knight);
+		}
 	}
-}
-else{instance_create_layer(x+(180*2), y+(180), "Instances", Check_Checkers);} // Right down
+	else{instance_create_layer(x+(180*2), y-(180), "Instances", CC_Knight);} // Right up
+
+	if(!place_empty(x+(180*2), y+(180))){
+		if(position_meeting(x+(180*2), y+(180), Obj_King_Black)){
+			instance_create_layer(x+(180*2), y+(180), "Instances", CC_Knight);
+		}
+	}
+	else{instance_create_layer(x+(180*2), y+(180), "Instances", CC_Knight);} // Right down
 }
 

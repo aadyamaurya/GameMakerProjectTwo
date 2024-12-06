@@ -1,18 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"Check_Checkers",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Obj_Out_of_Bounds","path":"objects/Obj_Out_of_Bounds/Obj_Out_of_Bounds.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Obj_King_Black","path":"objects/Obj_King_Black/Obj_King_Black.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"CC_Queen",
+  "eventList":[],
   "managed":true,
-  "name":"Check_Checkers",
+  "name":"CC_Queen",
   "overriddenProperties":[],
   "parent":{
     "name":"Check_Checkers",
     "path":"folders/Objects/Check_Checkers.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"Check_Checkers_Parent",
+    "path":"objects/Check_Checkers_Parent/Check_Checkers_Parent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

@@ -58,80 +58,78 @@ if (isDragging && mouse_check_button_released(mb_left)) {
     
     isDragging = false;
 	
-	// Check for Check
+	// Check for check
 	var multiplier = 1;
 
-	if(instance_exists(CC_Bishop)){instance_destroy(CC_Bishop);}
+	if(instance_exists(CC_Rook)){instance_destroy(CC_Rook);}
 
-	// Up left
+	//up
 	while (multiplier < 9){
-	if (!place_empty(x-(180*multiplier), y-(180*multiplier))){
-	if(position_meeting(x-(180*multiplier), y-(180*multiplier), Obj_King_Black)){
-		
-			instance_create_layer(x-(180*multiplier), y-(180*multiplier), "Instances", CC_Bishop);
+	if (!place_empty(x, y-(180*multiplier))){
+		if(position_meeting(x, y - (180 * multiplier), Obj_King_Black)){
+			instance_create_layer(x, y-(180*multiplier), "Instances", CC_Rook);
 			break;
 		}
 		else{
 			break;
 		}
 	}
-	instance_create_layer(x-(180*multiplier), y-(180*multiplier), "Instances", CC_Bishop);
+	instance_create_layer(x, y-(180*multiplier), "Instances", CC_Rook);
 	multiplier++;
 	}
 	multiplier = 1;
 
-	// Down Right
+	//down
 	while (multiplier < 9){
-	if (!place_empty(x+(180*multiplier), y+(180*multiplier))){
-	if(position_meeting(x+(180*multiplier), y+(180*multiplier), Obj_King_Black)){
-		
-			instance_create_layer(x+(180*multiplier), y+(180*multiplier), "Instances", CC_Bishop);
+	if (!place_empty(x, y+(180*multiplier))){
+		if(position_meeting(x, y + (180 * multiplier), Obj_King_Black)){
+			instance_create_layer(x, y+(180*multiplier), "Instances", CC_Rook);
 			break;
 		}
 		else{
 			break;
 		}
 	}
-	instance_create_layer(x+(180*multiplier), y+(180*multiplier), "Instances", CC_Bishop);
+	instance_create_layer(x, y+(180*multiplier), "Instances", CC_Rook);
 	multiplier++;
 	}
 	multiplier = 1;
 
-	// Down Left
+	//left
 	while (multiplier < 9){
-	if (!place_empty(x-(180*multiplier), y+(180*multiplier))){
-	if(position_meeting(x-(180*multiplier), y+(180*multiplier), Obj_King_Black)){
-		
-			instance_create_layer(x-(180*multiplier), y+(180*multiplier), "Instances", CC_Bishop);
+	if (!place_empty(x-(180*multiplier), y)){
+	if (!place_empty(x-(180*multiplier), y)){
+		if(position_meeting(x-(180*multiplier), y, Obj_King_Black)){
+			instance_create_layer(x-(180*multiplier), y, "Instances", CC_Rook);
 			break;
 		}
 		else{
 			break;
 		}
 	}
-	instance_create_layer(x-(180*multiplier), y+(180*multiplier), "Instances", CC_Bishop);
+	}
+	instance_create_layer(x-(180*multiplier), y, "Instances", CC_Rook);
 	multiplier++;
 	}
 	multiplier = 1;
 
-	// Up right
+	//right
 	while (multiplier < 9){
-	if (!place_empty(x+(180*multiplier), y-(180*multiplier))){
-	if(position_meeting(x+(180*multiplier), y-(180*multiplier), Obj_King_Black)){
-		
-			instance_create_layer(x+(180*multiplier), y-(180*multiplier), "Instances", CC_Bishop);
+	if (!place_empty(x+(180*multiplier), y)){
+	if (!place_empty(x+(180*multiplier), y)){
+		if(position_meeting(x+(180*multiplier), y, Obj_King_Black)){
+			instance_create_layer(x+(180*multiplier), y, "Instances", CC_Rook);
 			break;
 		}
 		else{
 			break;
 		}
 	}
-	instance_create_layer(x+(180*multiplier), y-(180*multiplier), "Instances", CC_Bishop);
+	}
+	instance_create_layer(x+(180*multiplier), y, "Instances", CC_Rook);
 	multiplier++;
 	}
 	multiplier = 1;
 }
-
-
 
 

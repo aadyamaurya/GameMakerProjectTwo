@@ -1,17 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"Check_Checkers_Bishop",
+  "%Name":"CC_Rook",
   "eventList":[],
   "managed":true,
-  "name":"Check_Checkers_Bishop",
+  "name":"CC_Rook",
   "overriddenProperties":[],
   "parent":{
     "name":"Check_Checkers",
     "path":"folders/Objects/Check_Checkers.yy",
   },
   "parentObjectId":{
-    "name":"Check_Checkers",
-    "path":"objects/Check_Checkers/Check_Checkers.yy",
+    "name":"Check_Checkers_Parent",
+    "path":"objects/Check_Checkers_Parent/Check_Checkers_Parent.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
