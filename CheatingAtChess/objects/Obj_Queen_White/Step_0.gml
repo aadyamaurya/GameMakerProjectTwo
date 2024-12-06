@@ -50,13 +50,14 @@ if (isDragging && mouse_check_button_released(mb_left)) {
 		
 		instance_destroy(Obj_Shadow);
 		global.moveCounter++;
+		global.bCanMove = true;
     }
 	else{
 	x = original_x;
 	y = original_y;
 	}
     
-    isDragging = false;\
+    isDragging = false;
 	
 	// Check for check
 	var multiplier = 1;
