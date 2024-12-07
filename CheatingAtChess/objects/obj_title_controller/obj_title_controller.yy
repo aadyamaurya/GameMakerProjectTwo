@@ -1,11 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_level_select",
+  "%Name":"obj_title_controller",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_level_select",
+  "name":"obj_title_controller",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -29,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_Level_Select_0",
-    "path":"sprites/spr_Level_Select_0/spr_Level_Select_0.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
