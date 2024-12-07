@@ -36,43 +36,43 @@ if (isDragging && mouse_check_button_released(mb_left)) {
         
 		if (blackPawn != noone) {
             instance_destroy(blackPawn);
-			audio_play_sound(snd_delete_piece, 1, false);
+			audio_play_sound(snd_delete, 1, false);
         }
         else if (blackBishop != noone) {
             instance_destroy(blackBishop);
-			audio_play_sound(snd_delete_piece, 1, false);
+			audio_play_sound(snd_delete, 1, false);
         }
         else if (blackKnight != noone) {
             instance_destroy(blackKnight);
-			audio_play_sound(snd_delete_piece, 1, false);
+			audio_play_sound(snd_delete, 1, false);
         }
         else if (blackRook != noone) {
             instance_destroy(blackRook);
-			audio_play_sound(snd_delete_piece, 1, false);
+			audio_play_sound(snd_delete, 1, false);
         }
         else if (blackQueen != noone) {
             instance_destroy(blackQueen);
-			audio_play_sound(snd_delete_piece, 1, false);
+			audio_play_sound(snd_delete, 1, false);
         }
         else if (whitePawn != noone) {
             instance_destroy(whitePawn);
-			audio_play_sound(snd_delete_piece, 1, false);
+			audio_play_sound(snd_delete, 1, false);
         }
         else if (whiteBishop != noone) {
             instance_destroy(whiteBishop);
-			audio_play_sound(snd_delete_piece, 1, false);
+			audio_play_sound(snd_delete, 1, false);
         }
         else if (whiteKnight != noone) {
             instance_destroy(whiteKnight);
-			audio_play_sound(snd_delete_piece, 1, false);
+			audio_play_sound(snd_delete, 1, false);
         }
         else if (whiteRook != noone) {
             instance_destroy(whiteRook);
-			audio_play_sound(snd_delete_piece, 1, false);
+			audio_play_sound(snd_delete, 1, false);
         }
         else if (whiteQueen != noone) {
             instance_destroy(whiteQueen);
-			audio_play_sound(snd_delete_piece, 1, false);
+			audio_play_sound(snd_delete, 1, false);
         }
 		else{
 		instance_create_layer(x, y, "Instances", Obj_Blocker);
