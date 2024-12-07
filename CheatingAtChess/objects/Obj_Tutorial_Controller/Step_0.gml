@@ -2,13 +2,13 @@
 // You can write your code in this editor
 // global.moveCounter == 2 && first_move_correct == 1 && second_move_correct == 1 &&
 if (inMate = true){
-	show_message_async("This is the correct solution!")
-	room_goto(rm_Title_Screen)
+	global.previous_room = room;
+	room_goto(rm_Level_Completed);
 	global.level0Score = 1;
 }
 else if(global.moveCounter == 2){
 	if(first_move_correct == 0 || second_move_correct == 0){
-		show_message_async("This is not the correct solution, hit 'R' to restart!")
+		room_goto(rm_Level_Failed);
 	}
 }
 

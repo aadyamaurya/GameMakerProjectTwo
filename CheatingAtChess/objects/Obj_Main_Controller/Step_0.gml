@@ -1,9 +1,10 @@
 if (inMate = true){
-	show_message_async("This is the correct solution!")
-	room_goto(rm_Title_Screen)
+	global.previous_room = room;
+	room_goto(rm_Level_Completed);
+	global.level1Score = 1;
 }
 else if(global.moveCounter == 2 && first_move_correct = 0){
-		show_message_async("This is not the correct solution, hit 'R' to restart!")
+		room_goto(rm_Level_Failed);
 		global.moveCounter = 0;
 }
 
