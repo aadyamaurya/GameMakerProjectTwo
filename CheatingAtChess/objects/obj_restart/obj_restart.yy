@@ -1,11 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_level_select",
+  "%Name":"obj_restart",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_level_select",
+  "name":"obj_restart",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -30,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_Level_Select_0",
-    "path":"sprites/spr_Level_Select_0/spr_Level_Select_0.yy",
+    "name":"spr_Tutorial_Button",
+    "path":"sprites/spr_Tutorial_Button/spr_Tutorial_Button.yy",
   },
   "spriteMaskId":null,
   "visible":true,
