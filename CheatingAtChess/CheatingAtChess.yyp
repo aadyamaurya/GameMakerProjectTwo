@@ -90,6 +90,7 @@
     {"id":{"name":"snd_move_piece","path":"sounds/snd_move_piece/snd_move_piece.yy",},},
     {"id":{"name":"snd_soundtrack","path":"sounds/snd_soundtrack/snd_soundtrack.yy",},},
     {"id":{"name":"Cover","path":"sprites/Cover/Cover.yy",},},
+    {"id":{"name":"Cover2","path":"sprites/Cover2/Cover2.yy",},},
     {"id":{"name":"Spr_Bishop_Black","path":"sprites/Spr_Bishop_Black/Spr_Bishop_Black.yy",},},
     {"id":{"name":"Spr_Bishop_White","path":"sprites/Spr_Bishop_White/Spr_Bishop_White.yy",},},
     {"id":{"name":"spr_black_square","path":"sprites/spr_black_square/spr_black_square.yy",},},
