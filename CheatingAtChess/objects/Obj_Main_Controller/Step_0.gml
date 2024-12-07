@@ -4,13 +4,21 @@
 // You can write your code in this editor
 // global.moveCounter == 2 && first_move_correct == 1 && second_move_correct == 1 &&
 if (inMate = true){
-	show_message_async("This is the correct solution!")
+	show_message_async("This is a correct solution!")
 	room_goto(rm_Title_Screen)
 	}
+
 if(global.moveCounter > 3){
 		show_message_async("Too many moves, try again!")
 		room_goto(rm_Title_Screen)
+}
+
+var placeHold;
+if (global.bCanMove == true && global.moveCounter == 1){
+	if (inCheck == true && !place_empty(x, y + 360)){
+		
 	}
+}
 
 // Check for check
 var kX = Obj_King_Black.x;

@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"snd_move_piece",
+  "%Name":"snd_button_click",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,8 +9,8 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.444062,
-  "name":"snd_move_piece",
+  "duration":0.36,
+  "name":"snd_button_click",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_move_piece.mp3",
+  "soundFile":"snd_button_click.mp3",
   "type":0,
   "volume":1.0,
 }
