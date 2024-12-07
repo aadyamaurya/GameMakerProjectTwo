@@ -6,8 +6,9 @@ if (inMate = true){
 	room_goto(rm_Title_Screen)
 }
 else if(global.moveCounter == 2){
-		show_message_async("This is not the correct solution, hit 'R' to restart!");
-		global.moveCounter = 0;
+	if(first_move_correct == 0 || second_move_correct == 0){
+		show_message_async("This is not the correct solution, hit 'R' to restart!")
+	}
 }
 
 if (place_empty(x + 180, y + 360) && first_move_correct == 0){first_move_correct = 1;}
