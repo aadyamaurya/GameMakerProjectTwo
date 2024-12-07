@@ -13,10 +13,19 @@ if(global.moveCounter > 3){
 		room_goto(rm_Title_Screen)
 }
 
-var placeHold;
+
 if (global.bCanMove == true && global.moveCounter == 1){
-	if (inCheck == true && !place_empty(x, y + 360)){
-		
+	if (global.isChecked == true && !place_empty(x, y + 360)){
+		instance_destroy(Obj_Rook_Black);
+		instance_destroy(Obj_Rook_White)
+		instance_create_layer(x, y + 360, "Instances", Obj_Rook_Black);
+		global.bCanMove = false;
+	}
+	if (global.isChecked == true && !place_empty(x+180, y + 540)){
+		instance_destroy(Obj_Rook_Black);
+		instance_destroy(Obj_Knight_White)
+		instance_create_layer(x+180, y + 540, "Instances", Obj_Rook_Black);
+		global.bCanMove = false;
 	}
 }
 
