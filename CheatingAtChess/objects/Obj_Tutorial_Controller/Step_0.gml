@@ -4,6 +4,7 @@
 if (inMate = true){
 	show_message_async("This is the correct solution!")
 	room_goto(rm_Title_Screen)
+	global.level0Score = 1;
 }
 else if(global.moveCounter == 2){
 	if(first_move_correct == 0 || second_move_correct == 0){
