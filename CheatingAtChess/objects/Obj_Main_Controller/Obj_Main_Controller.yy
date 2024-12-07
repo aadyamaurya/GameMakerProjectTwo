@@ -1,17 +1,21 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_Out_of_Bounds",
+  "%Name":"Obj_Main_Controller",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_Out_of_Bounds",
+  "name":"Obj_Main_Controller",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Level Controllers",
+    "path":"folders/Objects/Level Controllers.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"Obj_Tutorial_Controller",
+    "path":"objects/Obj_Tutorial_Controller/Obj_Tutorial_Controller.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_OoB",
-    "path":"sprites/Spr_OoB/Spr_OoB.yy",
+    "name":"Spr_Shadow_Select",
+    "path":"sprites/Spr_Shadow_Select/Spr_Shadow_Select.yy",
   },
   "spriteMaskId":null,
   "visible":true,
