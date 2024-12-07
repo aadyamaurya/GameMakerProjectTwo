@@ -82,6 +82,11 @@ if (isDragging && mouse_check_button_released(mb_left)) {
 			audio_play_sound(snd_delete_piece, 1, false);
         }
 		
+		if (place_empty(x, y){
+			instance_create_layer(x, y, "Instances", Obj_Blocker);
+		}
+		
+		
 		instance_destroy(Obj_Shadow);
 		instance_destroy();
 		global.moveCounter++;
